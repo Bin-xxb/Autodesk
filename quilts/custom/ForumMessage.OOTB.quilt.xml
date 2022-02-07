@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="quick-reply-button"/>
+    <component id="accepted-solutions-button"/>
+  </add>
+  <add to="main-right">
+    <component id="labels"/>
+    <component id="message-view.widget.tags" useChrome="true" showTagLabelText="true"/>
+    <component id="attachments"/>
+  </add>
+  <add to="header-left">
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="author-rank"/>
+    <component id="user-expert-topics"/>
+  </add>
+  <add to="main-left">
+    <component id="post-date"/>
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="body-signature-highlight-escalation" useControlHighlightText="true"/>
+    <component id="me-too"/>
+    <component id="me-too-solution"/>
+    <component id="me-too-support-resolution"/>
+    <component id="media-snippet"/>
+    <component id="product-snippet"/>
+  </add>
+  <add to="quickreply-right">
+    <component id="quick-reply"/>
+  </add>
+  <add to="header-right">
+    <component id="message-view.widget.action-menu" renderOrder="message-action-menu"/>
+    <component id="post-date"/>
+  </add>
+  <add to="footer-left">
+    <component id="kudos-action"/>
+    <component id="message-rating"/>
+  </add>
+  <add to="mod-controls-main">
+    <component id="escalate-message-button"/>
+    <component id="promote-message-button"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

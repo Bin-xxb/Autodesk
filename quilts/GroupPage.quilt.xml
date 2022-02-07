@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="autodesk-boards-ideas-help-quick-links"/>
+    <component id="groups.widget.group-description"/>
+    <component id="group-stats"/>
+    <component id="groups.widget.group-members-view" membersListSize="6"/>
+    <component id="custom_content_1"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.search-form"/>
+    <component id="common.widget.node-information"/>
+    <component id="menu-bar"/>
+    <component id="autodesk-group-page-notification"/>
+    <component id="media.widget.masonry-grid"/>
+    <component id="message-list-title" wrapper="lia-menu-bar lia-hidden-phone"/>
+    <component id="paging"/>
+    <component id="message-list"/>
+    <component id="paging" wrapper="lia-menu-bar lia-menu-bar-bottom"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="quilt:autodesk-category-board-header"/>
+    <component id="common.widget.page-feedback"/>
+  </add>
+</quilt>

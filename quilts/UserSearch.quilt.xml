@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="search-menubar"/>
+    <component id="search-results"/>
+  </add>
+  <add to="common-header">
+    <component id="search-title"/>
+    <component id="search.widget.search-page-form"/>
+    <component id="search.widget.advanced-search-toggle" wrapper="lia-search-tab-bar"/>
+    <component id="search-tabs" wrapper="lia-search-tab-bar"/>
+    <component id="search-advanced"/>
+  </add>
+</quilt>

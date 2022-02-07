@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="group-message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="actions"/>
+  </add>
+  <add to="main-right">
+    <component id="message-header"/>
+    <component id="post-date-last-edited"/>
+    <component id="body"/>
+    <component id="media-snippet"/>
+    <component id="third-party-source"/>
+    <component id="source-device"/>
+  </add>
+  <add to="footer-center">
+    <component id="tags"/>
+    <component id="classifications"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+  <add to="main-left">
+    <component id="author"/>
+  </add>
+  <add to="quickreply-right">
+    <component id="quickreply"/>
+  </add>
+  <add to="footer-left">
+    <component id="report-abuse"/>
+    <component id="position-in-thread"/>
+  </add>
+</quilt>

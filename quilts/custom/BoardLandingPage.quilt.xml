@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="poc"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+</quilt>

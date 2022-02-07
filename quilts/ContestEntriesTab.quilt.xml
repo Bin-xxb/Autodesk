@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-entries" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="community.widget.page-options"/>
+    <component id="contests.widget.statuses"/>
+    <component id="menu-bar-sort-pager"/>
+    <component id="label"/>
+    <component id="media.widget.masonry-grid" li-message-view="contest-card" li-page-size="setting:contest.entries_per_page_num" li-pagination="none" li-pager-id="contest-entries" li-include-floats="false"/>
+    <component id="menu-bar-post-pager"/>
+  </add>
+  <add to="secondary-left-content">
+    <component id="labels-list" labelDisplaySize="16" useChrome="false" useSortHeader="true"/>
+  </add>
+  <add to="secondary-right-content">
+    <component id="tags.widget.tag-cloud"/>
+  </add>
+</quilt>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="occasions.widget.status-filter" wrapper="lia-occasion-filters" isDropDown="false"/>
+    <component id="occasions.widget.labels-filter" wrapper="lia-occasion-filters" isDropDown="true"/>
+  </add>
+</quilt>

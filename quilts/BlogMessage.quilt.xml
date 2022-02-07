@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column.message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="messages.stat.thread-replies-count"/>
+  </add>
+  <add to="header-left">
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="user-expert-topics"/>
+  </add>
+  <add to="main">
+    <component id="message-view.widget.subject" useBatchProcessingCheckbox="setting:layout.show_batch_checkboxes" disableSubjectLink="false"/>
+    <component id="custom.autodesk.blog-message-teaser"/>
+    <component id="labels"/>
+  </add>
+  <add to="header-right">
+    <component id="custom.autodesk.blog-message-min-read"/>
+    <component id="post-date"/>
+    <component id="message-view.widget.action-menu" renderOrder="blog-article-page-action-menu"/>
+  </add>
+  <add to="footer-left">
+    <component id="kudos-action"/>
+  </add>
+  <add to="mod-controls-main">
+    <component id="modbar"/>
+  </add>
+</quilt>

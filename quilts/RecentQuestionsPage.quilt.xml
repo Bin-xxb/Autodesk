@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="autodesk-boards-ideas-help-quick-links"/>
+    <component id="autodesk-trending-topics"/>
+    <component id="solutions.widget.accepted-solutions-leaderboard-taplet"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="main-content">
+    <component id="question-list"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="custom.autodesk.category-board-header"/>
+    <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+  </add>
+</quilt>

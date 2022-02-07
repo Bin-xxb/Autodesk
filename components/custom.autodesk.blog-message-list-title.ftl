@@ -1,0 +1,1 @@
+<h2 class="blog-message-list-title">${text.format('custom.blog-message-list-title')}</h2>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="false" disableTopCssClass="false">
+  <add to="right-content">
+    <component id="case-id"/>
+    <component id="origin"/>
+    <component id="created-date"/>
+    <component id="update-date"/>
+    <component id="status"/>
+    <component id="custom-fields"/>
+  </add>
+  <add to="left-content">
+    <component id="subject"/>
+    <component id="description"/>
+  </add>
+</quilt>

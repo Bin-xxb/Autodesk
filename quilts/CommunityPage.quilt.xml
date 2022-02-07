@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="custom.autodesk.lia-tabs-js-lib"/>
+    <component id="autodesk-landing-page-products-grouping"/>
+    <component id="autodesk-google-sitelink-searchbox"/>
+    <component id="custom.autodesk-group-hub-landing-tab"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-landing-page-forums-ideas-banner"/>
+    <component id="autodesk-community-metrics"/>
+    <component id="homepage-tab.js"/>
+  </add>
+</quilt>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="twitter.widget.stream"/>
+    <component id="blogs.widget.management"/>
+    <component id="blogs.widget.bios"/>
+    <component id="common.widget.announcement"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="blogs.widget.latest-articles"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="blogs.widget.labels"/>
+    <component id="blogs.widget.archives"/>
+    <component id="forums.widget.polls"/>
+    <component id="blogs.widget.blogroll"/>
+    <component id="kudos.widget.givers-leaderboard"/>
+  </add>
+  <add to="main-content">
+    <component id="custom.autodesk.blog-console-page-back.js"/>
+    <component id="tabs"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+    <component id="custom.autodesk.blog-console-page-post"/>
+  </add>
+</quilt>

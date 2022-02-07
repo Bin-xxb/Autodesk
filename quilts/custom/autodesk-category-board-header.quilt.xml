@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="true" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="custom.autodesk.category-board-header"/>
+  </add>
+</quilt>

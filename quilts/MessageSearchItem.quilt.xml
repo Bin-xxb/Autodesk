@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="list-item" nestable="false" disableTopCssClass="false">
+  <add to="right-content">
+    <component id="kudos-count" wrapper="lia-message-item-metadata lia-message-item-metadata-side"/>
+  </add>
+  <add to="left-content">
+    <component id="discussion-style-icon" wrapper="lia-message-item-metadata lia-message-item-metadata-main"/>
+    <component id="batch-processing-checkbox" wrapper="lia-message-item-metadata lia-message-item-metadata-main"/>
+    <component id="subject" wrapper="lia-message-item-metadata lia-message-item-metadata-main"/>
+    <component id="byline-author-board" wrapper="lia-message-item-metadata lia-message-item-metadata-main"/>
+    <component id="post-date" wrapper="lia-message-item-metadata lia-message-item-metadata-main"/>
+  </add>
+  <add to="full-content">
+    <component id="message-view.widget.body" useViewMore="false" controlHighlightText="true" useNbspForEmptyBody="true" showAttachments="false"/>
+    <component id="attachments"/>
+    <component id="tags"/>
+    <component id="labels"/>
+    <component id="replies"/>
+  </add>
+</quilt>

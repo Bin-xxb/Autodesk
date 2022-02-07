@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="message-view.widget.body" wrapper="lia-comment-main-wrapper" useNbspForEmptyBody="false"/>
+    <component id="kudos-action-reversed" wrapper="lia-comment-side-wrapper"/>
+  </add>
+  <add to="common-header">
+    <component id="author-avatar" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="author" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="author-rank" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="post-date" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="comment-options"/>
+  </add>
+</quilt>

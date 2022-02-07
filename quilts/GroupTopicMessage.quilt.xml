@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="Custom-Forum-Message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="quick-reply-button"/>
+    <component id="accepted-solutions-button"/>
+  </add>
+  <add to="header-left">
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="author-rank"/>
+  </add>
+  <add to="main-left">
+    <component id="post-date"/>
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="body-signature-highlight-escalation" useControlHighlightText="true"/>
+    <component id="autodesk-forum-message-solutions"/>
+    <component id="attachments"/>
+    <component id="message-view.widget.tags" wrapper="custom-add-tag" useChrome="true" showTagLabelText="true"/>
+  </add>
+  <add to="quickreply-right">
+    <component id="quick-reply"/>
+  </add>
+  <add to="header-right">
+    <component id="post-date"/>
+    <component id="message-view.widget.action-menu" renderOrder="message-action-menu"/>
+  </add>
+  <add to="footer-left">
+    <component id="escalate-message-button"/>
+    <component id="kudos-action"/>
+  </add>
+  <add to="mod-controls-main">
+    <component id="promote-message-button"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

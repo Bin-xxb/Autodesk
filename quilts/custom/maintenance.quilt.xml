@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="autodesk-maintenance-page-header"/>
+    <component id="autodesk-maintenance-page-content"/>
+  </add>
+</quilt>

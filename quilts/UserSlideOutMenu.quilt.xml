@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="user-slide-out-menu" nestable="false" disableTopCssClass="false">
+  <add to="profile-links">
+    <component id="users.action.view-user-profile-modern"/>
+    <component id="users.action.finish-registration"/>
+    <component id="users.action.registration"/>
+    <component id="facebook.widget.connect-button.secondary"/>
+    <component id="users.action.my-profile-settings"/>
+    <component id="users.actions.my-subscriptions"/>
+    <component id="help.action.faq"/>
+    <component id="admin.action.switch-user"/>
+    <component id="admin.widget.new-admin.short"/>
+    <component id="admin.action.studio-admin"/>
+    <component id="users.action.logout"/>
+  </add>
+  <add to="profile-card">
+    <component id="users.widget.current-user-summary" type="profile-card"/>
+  </add>
+</quilt>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="description" wrapper="lia-occasion-item-content"/>
+    <component id="bannerImage" wrapper="lia-occasion-item-content"/>
+    <component id="startDate" wrapper="lia-occasion-item-footer"/>
+    <component id="message-view.widget.labels" wrapper="lia-occasion-item-footer" useChrome="true" showLabelText="true"/>
+    <component id="counts" wrapper="lia-occasion-item-footer"/>
+    <component id="rsvp" wrapper="lia-occasion-item-footer"/>
+    <component id="comments.action.comments-link" wrapper="lia-occasion-item-footer"/>
+  </add>
+  <add to="common-header">
+    <component id="title" wrapper="lia-occasion-item-header"/>
+  </add>
+</quilt>

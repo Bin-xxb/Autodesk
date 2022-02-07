@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="autodesk-boards-ideas-help-quick-links"/>
+    <component id="autodesk-user-active-areas"/>
+  </add>
+  <add to="main-content">
+    <component id="autodesk-lia-script-tabs-responsive"/>
+    <component id="autodesk-dashboard-secondary-tabs-widget"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-mydashboard-page-banner"/>
+    <component id="autodesk-mydashboard-page-tab-panel"/>
+  </add>
+</quilt>

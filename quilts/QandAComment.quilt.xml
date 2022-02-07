@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="qanda-comment" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="kudos"/>
+    <component id="secondaryActions"/>
+  </add>
+  <add to="header">
+    <component id="message-header"/>
+  </add>
+  <add to="main">
+    <component id="body"/>
+    <component id="media-snippet"/>
+  </add>
+  <add to="footer-left">
+    <component id="source-device"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

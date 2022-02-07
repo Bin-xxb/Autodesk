@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="image"/>
+    <component id="subject"/>
+    <component id="byline"/>
+    <component id="post-date"/>
+  </add>
+</quilt>

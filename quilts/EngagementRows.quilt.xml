@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="engagement" nestable="false" disableTopCssClass="false">
+  <add to="engagement-row-one-column-two">
+    <component id="kudos.widget.authors-leaderboard"/>
+  </add>
+  <add to="engagement-row-two-column-one">
+    <component id="community.widget.quick-links"/>
+  </add>
+  <add to="engagement-row-two-column-two">
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="engagement-row-one-column-one">
+    <component id="forums.widget.recent-messages"/>
+  </add>
+</quilt>

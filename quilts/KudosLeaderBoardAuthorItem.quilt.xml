@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="user-search-item" nestable="false" disableTopCssClass="false">
+  <add to="user-search-result">
+    <component id="user-position"/>
+    <component id="user-avatar"/>
+    <component id="user-name-and-simple-rank"/>
+    <component id="kudos-received-count"/>
+  </add>
+</quilt>

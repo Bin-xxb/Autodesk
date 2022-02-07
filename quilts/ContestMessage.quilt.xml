@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-messagev2" nestable="false" disableTopCssClass="false">
+  <add to="main-side">
+    <component id="ratings.widget.rating-display" ratingSystemRef="conv:contest_ratings"/>
+    <component id="message-title"/>
+    <component id="kudos"/>
+    <component id="message-share"/>
+  </add>
+  <add to="footer">
+    <component id="message-footer"/>
+    <component id="modbar"/>
+  </add>
+  <add to="main-content">
+    <component id="message-header"/>
+  </add>
+</quilt>

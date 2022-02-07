@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="treatment-profile-header" nestable="false" disableTopCssClass="false">
+  <add to="main-user-info">
+    <component id="author-avatar"/>
+    <component id="author"/>
+    <component id="author-rank"/>
+    <component id="user-expert-topics"/>
+  </add>
+  <add to="treatment-hovercard-container">
+    <component id="quilt:TreatmentProfileHovercard"/>
+  </add>
+</quilt>

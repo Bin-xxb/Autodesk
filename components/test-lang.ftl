@@ -1,0 +1,1 @@
+<div>test lang = ${settings.name.get("profile.language")}</div>

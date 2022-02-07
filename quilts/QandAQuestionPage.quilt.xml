@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="custom_content_7"/>
+    <component id="custom_content_11"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+  </add>
+  <add to="main-content">
+    <component id="custom.autodesk.back-to-topic-listing"/>
+    <component id="community.widget.page-options" wrapper="lia-page-header"/>
+    <component id="thread-pager"/>
+    <component id="question-view"/>
+    <component id="solutions-with-toggle"/>
+    <component id="answer-list-with-toggle"/>
+    <component id="thread-pager"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.node-information"/>
+  </add>
+</quilt>

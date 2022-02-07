@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="false" disableTopCssClass="false">
+  <add to="right-content">
+    <component id="create-case-link"/>
+  </add>
+  <add to="left-content">
+    <component id="case-portal-link"/>
+  </add>
+</quilt>

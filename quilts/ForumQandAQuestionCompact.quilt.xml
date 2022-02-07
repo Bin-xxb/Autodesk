@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column.forum-qanda-message" nestable="false" disableTopCssClass="false">
+  <add to="header">
+    <component id="qanda.widget.message-type" wrapper="lia-forum-qanda-question-subject-wrapper" message="lia-message:env"/>
+    <component id="message-view.widget.subject" wrapper="lia-forum-qanda-question-subject-wrapper" hideSubjectIcons="true"/>
+    <component id="solved-indicator" wrapper="lia-forum-qanda-question-subject-wrapper"/>
+    <component id="message-view.widget.action-menu" wrapper="lia-forum-qanda-question-subject-wrapper" renderOrder="forum-qanda-question-action-menu"/>
+  </add>
+  <add to="main">
+    <component id="products.widget.product-info" product="lia-product:message"/>
+  </add>
+  <add to="status">
+    <component id="products.widget.message-status" message="lia-message:env"/>
+    <component id="solved-indicator"/>
+  </add>
+</quilt>

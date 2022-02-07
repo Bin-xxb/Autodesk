@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="community.widget.metrics-display" li-metric-name="completed_registrations"/>
+    <component id="community.widget.users-online"/>
+    <component id="community.widget.metrics-display" li-metric-name="net_overall_posts"/>
+  </add>
+</quilt>

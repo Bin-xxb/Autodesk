@@ -1,0 +1,1 @@
+<a class="back-to-blog" href="${coreNode.webUi.url}">${text.format("threadnavigator.listing-page.title")}</a>

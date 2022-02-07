@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="custom.autodesk.contest-subscribe"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.welcome"/>
+    <component id="custom.autodesk.page-welcome-js"/>
+    <component id="custom.autodesk.back-to-category-link"/>
+    <component id="autodesk-custom-node"/>
+    <component id="custom.autodesk.contest-detail-page-like-comment-count"/>
+    <component id="submission-navigator"/>
+    <component id="submission-topic"/>
+    <component id="custom.autodesk.contest-comment-text"/>
+    <component id="comments"/>
+    <component id="comment-editor"/>
+    <component id="autodesk-custom-share"/>
+    <component id="comment-submission-navigator"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-custom-node-header-contest"/>
+  </add>
+</quilt>

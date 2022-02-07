@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="autodesk-header" nestable="false" disableTopCssClass="false">
+  <add to="autodesk_breadcrumb">
+    <component id="common.widget.breadcrumb@override"/>
+  </add>
+  <add to="autodesk_ics">
+    <component id="cross_community"/>
+  </add>
+  <add to="autodesk_first_row">
+    <component id="custom.autodesk.universal-header"/>
+  </add>
+  <add to="autodesk_second_row">
+    <component id="custom.autodesk.fusion-header"/>
+  </add>
+  <add to="autodesk_page_announcments">
+    <component id="common.widget.announcement"/>
+  </add>
+</quilt>

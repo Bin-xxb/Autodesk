@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="menu-bar-without-options"/>
+    <component id="article"/>
+    <component id="custom.autodesk.blog-topic-message-bio"/>
+    <component id="comment-count-conditional"/>
+    <component id="comment-list"/>
+    <component id="comment-pager"/>
+    <component id="comments-awaiting-moderation"/>
+    <component id="comment-editor"/>
+    <component id="autodesk-custom-blog-share" wrapper="content-navigator-share"/>
+    <component id="article-navigator" wrapper="content-navigator-share"/>
+    <component id="autodesk-custom-blog-article-recommended"/>
+    <component id="custom.autodesk.blog-subscribe"/>
+    <component id="custom_content_7"/>
+    <component id="custom_content_11"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+    <component id="community.widget.admin-links"/>
+    <component id="custom.autodesk.switch-user"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-custom-banner"/>
+    <component id="article-navigator" wrapper="header-navigator-share"/>
+    <component id="autodesk-custom-blog-share" wrapper="header-navigator-share"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+  </add>
+</quilt>

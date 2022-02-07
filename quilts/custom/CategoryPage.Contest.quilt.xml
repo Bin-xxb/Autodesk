@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="custom_content_7"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+    <component id="autodesk-expert-elite"/>
+    <component id="grouphubs.widget.node-groups-panel-list"/>
+    <component id="grouphubs.widget.my-groups-panel-list"/>
+    <component id="community.widget.admin-links"/>
+    <component id="custom.autodesk.switch-user"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.welcome"/>
+    <component id="custom.autodesk.page-welcome-js"/>
+    <component id="common.widget.search-form"/>
+    <component id="community.widget.page-options"/>
+    <component id="custom.autodesk.category-contest-list"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-custom-node-header"/>
+  </add>
+</quilt>

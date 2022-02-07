@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="footer" nestable="false" disableTopCssClass="false">
+  <add to="icons">
+    <component id="autodesk-footer"/>
+    <component id="quilt:Footer.ics"/>
+  </add>
+</quilt>

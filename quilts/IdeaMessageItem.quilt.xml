@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.21-3" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="comments.action.comments-link" wrapper="lia-message-comment-action"/>
+    <component id="comments.action.comment-button" wrapper="lia-message-comment-action" controlType="primary"/>
+  </add>
+  <add to="tag-add">
+    <component id="message-view.widget.tags" wrapper="custom-add-tag" useChrome="false" showTagLabelText="false"/>
+  </add>
+  <add to="side-content">
+    <component id="message-view.widget.labels" labelDisplaySize="4" useLabelsCustomEvent="true"/>
+  </add>
+  <add to="main-content">
+    <component id="message-view.widget.subject"/>
+    <component id="message-view.widget.body" truncateWithMessageLink="true" useNbspForEmptyBody="false" stripMediaHtml="true"/>
+    <component id="ratings.widget.rating-display" ratingSystemRef="conv:idea_ratings"/>
+  </add>
+  <add to="header-user">
+    <component id="batch-processing-checkbox"/>
+    <component id="author-avatar" wrapper="lia-byline-wrapper"/>
+    <component id="byline-author-date" wrapper="lia-byline-wrapper"/>
+    <component id="byline-date" wrapper="lia-byline-wrapper"/>
+    <component id="message-status" wrapper="lia-byline-wrapper"/>
+  </add>
+  <add to="footer-left">
+    <component id="kudos-action"/>
+  </add>
+</quilt>

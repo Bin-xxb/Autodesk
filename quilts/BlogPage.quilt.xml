@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="common.widget.search-bar"/>
+    <component id="custom.autodesk.blog-subscribe"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="blogs.widget.moderators"/>
+    <component id="blogs.widget.archives"/>
+    <component id="custom_content_7"/>
+    <component id="custom_content_11"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+    <component id="blogs.widget.latest-articles"/>
+    <component id="blogs.widget.management"/>
+    <component id="community.widget.admin-links"/>
+    <component id="custom.autodesk.switch-user"/>
+  </add>
+  <add to="main-content">
+    <component id="community.widget.page-options" wrapper="blog-nav-wrapper"/>
+    <component id="custom.autodesk.back-to-category-link" wrapper="blog-nav-wrapper"/>
+    <component id="forums.widget.menu-bar" displayNewPostButton="false"/>
+    <component id="archive-info"/>
+    <component id="filtered-by"/>
+    <component id="custom.autodesk.blog-message-list-title"/>
+    <component id="articles" quiltName="BlogMessage"/>
+    <component id="paging"/>
+    <component id="custom.autodesk.blog-subscribe-border-bottom"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-custom-banner"/>
+    <component id="autodesk-custom-blog-filter"/>
+    <component id="autodesk-custom-blog-article-featured"/>
+    <component id="forums.widget.menu-bar" wrapper="lia-page-header" displayPager="false"/>
+  </add>
+</quilt>

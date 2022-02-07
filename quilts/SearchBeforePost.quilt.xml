@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.18-6" nestable="false" disableTopCssClass="false">
+  <add to="right-content">
+    <component id="common.widget.advisory-message-display" wrapper="lia-side-advisory-display"/>
+  </add>
+  <add to="left-content">
+    <component id="messages.widget.search-before-post"/>
+  </add>
+</quilt>

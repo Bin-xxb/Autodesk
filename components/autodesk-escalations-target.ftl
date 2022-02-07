@@ -1,0 +1,1 @@
+<input type="hidden" id="${env.context.form.field.control.id}" name="${env.context.form.field.control.name}" value="targets.salesforce.case" />

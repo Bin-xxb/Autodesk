@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="right-content">
+    <component id="switch-user-via-id-form"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+  </add>
+  <add to="left-content">
+    <component id="switch-user-via-login-form"/>
+  </add>
+  <remove from="sub-header-main" for="Header">
+    <component id="common.widget.search-form"/>
+  </remove>
+  <remove from="header-right" for="Header">
+    <component id="common.widget.search-form-toggle"/>
+  </remove>
+</quilt>

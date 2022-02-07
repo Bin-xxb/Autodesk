@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="autodesk-header" nestable="false" disableTopCssClass="false">
+  <add to="breadcrumb">
+    <component id="common.widget.breadcrumb@override"/>
+  </add>
+  <add to="autodesk-user-navigation">
+    <component id="notificationfeed.widget.indicator" wrapper="lia-community-hero-icons"/>
+    <component id="notes.widget.summary-modern" wrapper="lia-community-hero-icons"/>
+    <component id="users.widget.menu" wrapper="lia-community-hero-icons"/>
+  </add>
+  <add to="autodesk-header-banner">
+    <component id="autodesk-hamburger-menu"/>
+  </add>
+</quilt>

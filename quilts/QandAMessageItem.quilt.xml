@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column.list-item" nestable="false" disableTopCssClass="false">
+  <add to="top-content">
+    <component id="message-view.widget.subject"/>
+    <component id="message-view.widget.body" truncateWithMessageLink="true" useNbspForEmptyBody="false" showBodyWhenEmpty="false" stripMediaHtml="true"/>
+    <component id="ask-a-question-input.js"/>
+  </add>
+  <add to="bottom-content">
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="me_too"/>
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="kudos"/>
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="answers"/>
+    <component id="byline-author-date" wrapper="lia-message-stats-display"/>
+  </add>
+  <add to="full-content">
+    <component id="byline-author-date" wrapper="lia-message-stats-display"/>
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="answers"/>
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="kudos"/>
+    <component id="messages.widget.stats-display" wrapper="lia-message-stats-display" messageStatsType="me_too"/>
+    <component id="comments.action.comments-link" wrapper="lia-byline-wrapper"/>
+  </add>
+</quilt>

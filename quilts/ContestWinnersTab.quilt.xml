@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="contest-winnerstab" nestable="false" disableTopCssClass="false">
+  <add to="main">
+    <component id="custom.autodesk.view-winner"/>
+    <component id="community.widget.page-options"/>
+    <component id="custom.autodesk.contest-content"/>
+    <component id="custom.autodesk.contestWinner"/>
+    <component id="comments"/>
+  </add>
+</quilt>

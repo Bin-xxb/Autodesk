@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+    <component id="autodesk-google-seo-jsonLD-script"/>
+  </add>
+  <add to="side-content">
+    <component id="custom_content_7"/>
+    <component id="autodesk-post-to-forums"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+    <component id="custom_content_11"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.node-information"/>
+    <component id="common.widget.search-form"/>
+    <component id="autodesk-machine-translation-widget"/>
+    <component id="quilt:ForumTopicHeader" wrapper="lia-page-header"/>
+    <component id="autodesk-need-an-answer"/>
+    <component id="menu-bar"/>
+    <component id="thread-pager"/>
+    <component id="topic-message"/>
+    <component id="solution-list"/>
+    <component id="reply-count-conditional"/>
+    <component id="message-list-detail-with-inline-editors"/>
+    <component id="thread-pager"/>
+    <component id="menu-bar" wrapper="menu-bar-wrapper-bottom"/>
+    <component id="autodesk-social-share" wrapper="main-content-bottom"/>
+    <component id="autodesk-beehive-widget"/>
+    <component id="autodesk-was-this-helpful-script"/>
+    <component id="autodesk-forum-topic-page-screencast-patch"/>
+    <component id="custom.autodesk.move-menubar"/>
+    <component id="custom.autodesk.board-title-move"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="quilt:autodesk-category-board-header"/>
+  </add>
+</quilt>

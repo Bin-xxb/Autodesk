@@ -1,0 +1,1 @@
+<div class="lia-occasion-kudos-count events-kudos-text">${text.format("message.message-view.kudos-count.label")}</div>

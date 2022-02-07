@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="true" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="cross_community"/>
+  </add>
+</quilt>

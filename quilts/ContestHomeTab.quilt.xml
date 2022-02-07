@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column-one-feature" nestable="false" disableTopCssClass="false">
+  <add to="side-content">
+    <component id="menu-bar-post-pager"/>
+  </add>
+  <add to="common-header">
+    <component id="custom.autodesk.contest-entries-count"/>
+    <component id="community.widget.page-options"/>
+    <component id="contest-example"/>
+    <component id="custom.autodesk.contest-start-end-date"/>
+    <component id="custom.autodesk.contest-description"/>
+    <component id="contest-rules"/>
+  </add>
+</quilt>

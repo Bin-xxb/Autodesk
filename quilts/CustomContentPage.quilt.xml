@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="content"/>
+  </add>
+  <remove from="user-navigation" for="Header">
+    <component id="common.widget.user-navigation"/>
+  </remove>
+  <remove from="private-notes" for="Header">
+    <component id="notes.widget.summary"/>
+  </remove>
+  <remove from="site-navigation" for="Header">
+    <component id="common.widget.site-navigation"/>
+    <component id="common.widget.search-form"/>
+    <component id="common.widget.search-form-message"/>
+  </remove>
+</quilt>

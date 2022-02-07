@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column.message" nestable="false" disableTopCssClass="false">
+  <add to="header-left">
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="author-rank"/>
+    <component id="user-expert-topics"/>
+  </add>
+  <add to="main">
+    <component id="post-date"/>
+    <component id="message-view.widget.body"/>
+  </add>
+  <add to="header-right">
+    <component id="post-date"/>
+    <component id="message-view.widget.action-menu" renderOrder="blog-comment-action-menu"/>
+  </add>
+  <add to="footer-left">
+    <component id="kudos-action"/>
+  </add>
+  <add to="mod-controls-main">
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

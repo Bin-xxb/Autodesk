@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="tkb-message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="edit-button"/>
+    <component id="comment-button"/>
+    <component id="share-button"/>
+  </add>
+  <add to="main">
+    <component id="quilt:TkbMessageMain"/>
+  </add>
+  <add to="footer-left">
+    <component id="ratings.widget.rating-enum-display" useFeedbackFormOnValue="0" ratingSystemRef="tkb_helpfulness"/>
+    <component id="ratings.widget.rating-display" ratingSystemRef="conv:tkb_ratings"/>
+    <component id="modbar-toggle"/>
+    <component id="modbar"/>
+  </add>
+</quilt>

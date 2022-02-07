@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="autodesk-boards-ideas-help-quick-links"/>
+    <component id="autodesk-notificationFeedPage-settings-button"/>
+    <component id="autodesk-user-active-areas"/>
+  </add>
+  <add to="main-content">
+    <component id="notification-feed"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-notification-feed-page-banner"/>
+  </add>
+</quilt>

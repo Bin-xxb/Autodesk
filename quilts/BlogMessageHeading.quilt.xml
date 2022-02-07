@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="user-avatar"/>
+    <component id="simple-username"/>
+    <component id="author-rank"/>
+    <component id="user-expert-topics"/>
+    <component id="subject"/>
+  </add>
+</quilt>

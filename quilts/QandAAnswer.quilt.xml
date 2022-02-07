@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.message" nestable="false" disableTopCssClass="false">
+  <add to="footer-right">
+    <component id="reply-button"/>
+  </add>
+  <add to="main-right">
+    <component id="message-view.widget.tags" useChrome="true" showTagLabelText="true"/>
+    <component id="accepted-solutions-button"/>
+  </add>
+  <add to="header-left">
+    <component id="author-avatar" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="author" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="author-rank" wrapper="lia-message-user-avatar-rank-date-display"/>
+    <component id="post-date" wrapper="lia-message-answer-date-comment-options"/>
+    <component id="comment-options" wrapper="lia-message-answer-date-comment-options"/>
+  </add>
+  <add to="main-left">
+    <component id="solution-info"/>
+    <component id="message-view.widget.body" wrapper="lia-qa-content lia-qa-question-content"/>
+  </add>
+  <add to="footer-left">
+    <component id="message-view.widget.kudos" displayStyle="reversed"/>
+  </add>
+</quilt>

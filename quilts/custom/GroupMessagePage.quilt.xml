@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="autodesk-boards-ideas-help-quick-links"/>
+    <component id="custom_content_1"/>
+    <component id="community.widget.admin-links"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.search-form"/>
+    <component id="autodesk-machine-translation-widget"/>
+    <component id="quilt:GroupTopicHeader" wrapper="lia-page-header"/>
+    <component id="menu-bar"/>
+    <component id="topic-message"/>
+    <component id="solution-count-conditional"/>
+    <component id="solution-list"/>
+    <component id="reply-count-conditional"/>
+    <component id="reply-list"/>
+    <component id="thread-pager"/>
+    <component id="message-pager"/>
+    <component id="autodesk-social-share" wrapper="main-content-bottom"/>
+    <component id="autodesk-beehive-widget"/>
+    <component id="autodesk-was-this-helpful-script"/>
+    <component id="custom.autodesk.board-title-move"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="quilt:autodesk-category-board-header"/>
+  </add>
+</quilt>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="hero-three-column" nestable="false" disableTopCssClass="false">
+  <add to="hero-center">
+    <component id="common.widget.search-form" defaultToCommunity="true" showAdvancedSearchLink="false" hideGranularity="true"/>
+  </add>
+  <add to="hero-right">
+    <component id="common.widget.slide-out-user-menu"/>
+  </add>
+  <add to="hero-left">
+    <component id="common.widget.slide-out-nav-menu"/>
+  </add>
+</quilt>

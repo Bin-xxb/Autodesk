@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="qanda-message" nestable="false" disableTopCssClass="false">
+  <add to="main-right">
+    <component id="body"/>
+  </add>
+  <add to="main-single">
+    <component id="mobile-body"/>
+  </add>
+  <add to="main-left">
+    <component id="author"/>
+    <component id="ask-a-question-input.js"/>
+  </add>
+</quilt>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="nodes.widget.nodes-summary"/>
+    <component id="custom_content_7"/>
+    <component id="memberships.widget.members"/>
+    <component id="custom_content_11"/>
+    <component id="custom_content_12"/>
+    <component id="custom_content_13"/>
+  </add>
+  <add to="main-content">
+    <component id="custom.autodesk-group-hub-img-js"/>
+    <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
+    <component id="common.widget.node-information" wrapper="lia-page-header"/>
+    <component id="memberships.widget.join-open-node-link" wrapper="lia-page-header"/>
+    <component id="autodesk-custom-modal-group-join-open" wrapper="lia-page-header"/>
+    <component id="community.widget.page-options" wrapper="group-hub-message-list"/>
+    <component id="custom.autodesk.back-to-category-link" wrapper="group-hub-message-list"/>
+    <component id="nodes.widget.activity" wrapper="group-hub-message-list"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="quilt:autodesk-category-board-header"/>
+  </add>
+</quilt>

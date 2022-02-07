@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="common.widget.welcome"/>
+    <component id="custom_content_7"/>
+    <component id="labels.widget.labels-list" wrapper="lia-tkb-page-engagement-components" labelDisplaySize="20" useChrome="false" useSortHeader="true"/>
+    <component id="tkb.widget.top-contributors-taplet" mode="slim" wrapper="lia-tkb-page-engagement-components" showRankWithUserName="true" pagingAlignment="header" showRoleWithUserName="true" usePaging="true" showLeaderboardRank="true"/>
+  </add>
+  <add to="main-content">
+    <component id="community.widget.page-options"/>
+    <component id="messages.widget.search-before-post"/>
+    <component id="primary-post-button" wrapper="lia-page-header"/>
+    <component id="filtered-by"/>
+    <component id="tkb.widget.article-list-sort-menu" wrapper="lia-article-list-header"/>
+    <component id="paging" wrapper="lia-article-list-header"/>
+    <component id="tkb.widget.article-list"/>
+    <component id="paging"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="autodesk-custom-banner"/>
+    <component id="custom.autodesk.back-to-category-link"/>
+    <component id="autodesk-custom-blog-article-featured"/>
+  </add>
+</quilt>

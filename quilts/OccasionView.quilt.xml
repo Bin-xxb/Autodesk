@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="occasion-message" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-right">
+    <component id="rsvp"/>
+    <component id="startDate"/>
+    <component id="invite-participants"/>
+    <component id="download-events"/>
+    <component id="occasion-date-time" wrapper="lia-date-location-presentation"/>
+    <component id="location" wrapper="lia-date-location-presentation"/>
+    <component id="presentation-link" wrapper="lia-date-location-presentation"/>
+    <component id="custom.autodesk.events-calendar-title"/>
+    <component id="occasions.widget.calendar"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+  </add>
+  <add to="main-left">
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
+    <component id="community.widget.page-options"/>
+    <component id="custom.autodesk.event-detail-metrics"/>
+    <component id="banner-image" wrapper="lia-occasion-banner"/>
+    <component id="custom.autodesk.back-to-topic-listing"/>
+    <component id="custom.autodesk.occasion-rsvp-feedback"/>
+    <component id="author-avatar"/>
+    <component id="message-view.widget.author-username" wrapper="lia-message-author-with-avatar"/>
+    <component id="author-rank"/>
+    <component id="created" wrapper="lia-occasion-author"/>
+    <component id="description" wrapper="lia-occasion-description"/>
+    <component id="presenters" wrapper="lia-occasion-presenter"/>
+    <component id="message-view.widget.labels" useChrome="true" useHeading="true"/>
+    <component id="message-view.widget.attachments" useChrome="true"/>
+    <component id="message-view.widget.tags" useChrome="true" showTagLabelText="false"/>
+    <component id="message-view.widget.product-snippet" showModifyProducts="true"/>
+    <component id="kudos" wrapper="lia-occasion-kudos-reply"/>
+    <component id="reply-button" wrapper="lia-occasion-kudos-reply"/>
+  </add>
+  <add to="live-occasion">
+    <component id="live-occasion" wrapper="lia-live-occasion"/>
+  </add>
+</quilt>

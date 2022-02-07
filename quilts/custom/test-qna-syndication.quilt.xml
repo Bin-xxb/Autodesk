@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="main-content">
+    <component id="test-qna-syndication"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+  </add>
+</quilt>

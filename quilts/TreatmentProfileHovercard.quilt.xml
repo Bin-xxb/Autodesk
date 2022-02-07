@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="treatment-profile-hovercard" nestable="false" disableTopCssClass="false">
+  <add to="user-social">
+    <component id="profileplus.widget.treatment-score-box"/>
+    <component id="profileplus.widget.treatment-social-network-icons"/>
+  </add>
+  <add to="user-info">
+    <component id="author-avatar"/>
+    <component id="author"/>
+    <component id="author-rank"/>
+    <component id="registration-date"/>
+  </add>
+  <add to="signature-interests">
+    <component id="user-expert-topics"/>
+  </add>
+  <add to="user-metrics">
+    <component id="profileplus.widget.treatment-statistics" metricType="net_overall_posts"/>
+    <component id="profileplus.widget.treatment-statistics" metricType="net_kudos_weight_received"/>
+    <component id="profileplus.widget.treatment-statistics" metricType="net_accepted_solutions"/>
+  </add>
+</quilt>

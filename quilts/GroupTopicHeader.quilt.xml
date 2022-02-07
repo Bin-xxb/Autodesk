@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="topic-header" nestable="false" disableTopCssClass="false">
+  <add to="topic-header-left">
+    <component id="common.widget.page-title"/>
+    <component id="reply-count-conditional"/>
+    <component id="solved-indicator"/>
+  </add>
+</quilt>

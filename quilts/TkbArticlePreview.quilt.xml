@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="media.widget.thread-images"/>
+    <component id="message-view.widget.subject" disableSubjectLink="true"/>
+    <component id="message-view.widget.body"/>
+  </add>
+</quilt>

@@ -1,0 +1,1 @@
+<h2 class="lia-occasions-calendar-title">${text.format('occasions.events.calendar.title')}</h2>

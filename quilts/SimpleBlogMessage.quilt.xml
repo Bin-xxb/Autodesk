@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="single-row-full" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="message-header"/>
+    <component id="labels"/>
+    <component id="body"/>
+    <component id="actions"/>
+  </add>
+</quilt>
