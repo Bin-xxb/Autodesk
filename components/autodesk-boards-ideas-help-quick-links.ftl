@@ -45,16 +45,16 @@ Display Links for -
         <h4 class="title-bar" >${text.format('autodesk-forumlinks-widget-title')?html}</h4>
         <ul>
             <li id="boards-link">
-                <a  href="${base_url}?utm_source=forum-siderail&utm_medium=webpage&utm_campaign=all-forums">${text.format("autodesk-forumlinks-widget-links-all-forums")?html}</a>
+                <a  href="${text.format("autodesk-forumlinks-widget-links-all-forums-link")?html}">${text.format("autodesk-forumlinks-widget-links-all-forums")?html}</a>
             </li>
             <li id="boards-link">
-                <a  href="${base_url?html}/${get_started_url?html}">${text.format("autodesk-forumlinks-widget-links-get-started")?html}</a>
+                <a  href="${text.format("autodesk-forumlinks-widget-links-get-started-link")?html}">${text.format("autodesk-forumlinks-widget-links-get-started")?html}</a>
             </li>
             <li id="boards-link">
-                <a  href="https://knowledge.autodesk.com/contact-support?_ga=2.260548747.782618832.1599778894-801369465.1599252984&utm_source=forum-siderail&utm_medium=webpage&utm_campaign=support-downloads">${text.format("autodesk-forumlinks-widget-links-support-link")?html}</a>
+                <a  href="${text.format("autodesk-forumlinks-widget-links-support-link")?html}">${text.format("autodesk-forumlinks-widget-links-support")?html}</a>
             </li>
             <li id="boards-link">
-                <a  href="https://www.autodesk.com/community?utm_source=forum-siderail&utm_medium=webpage&utm_campaign=community-resources">${text.format("autodesk-forumlinks-widget-links-community-resource")?html}</a>
+                <a  href="${text.format("autodesk-forumlinks-widget-links-ava-link")?html}" target="_blank">${text.format("autodesk-forumlinks-widget-links-ava")?html}</a>
             </li>
             <#if ancestors?size gt 0>
                 <li id="boards-link" class="boards-link-qna-only">

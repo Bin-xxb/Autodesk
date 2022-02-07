@@ -4,8 +4,8 @@
 	<span class="share-title">${text.format('custom.blog-share.title')}</span>
 	<ul class="social-icons">
 		<li class="facebook"><a target="_blank" href="//www.facebook.com/sharer/sharer.php?u=${page.context.message.webUi.url?url}"></a></li>	
-		<li class="twitter"><a target="_blank" href="//twitter.com/share?text=${page.context.message.subject?url}"></a></li>
-		<li class="linkedin"><a target="_blank" href="//www.linkedin.com/sharing/share-offsite/?url=${page.context.message.webUi.url?url}"></a></li>
+		<li class="twitter"><a target="_blank" href="//twitter.com/share?url=${page.context.message.webUi.url?url}&text=${page.context.message.subject?url}"></a></li>
+		<li class="linkedin"><a target="_blank" href="//www.linkedin.com/shareArticle?mini=true&url=${page.context.message.webUi.url?url}&title=${page.context.message.subject?url}"></a></li>
 	</ul>
 </div>
 

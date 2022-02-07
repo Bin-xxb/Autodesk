@@ -5,6 +5,7 @@
   </add>
   <add to="main-right">
     <component id="rsvp"/>
+    <component id="custom.autodesk.occasion-text-key"/>
     <component id="startDate"/>
     <component id="invite-participants"/>
     <component id="download-events"/>

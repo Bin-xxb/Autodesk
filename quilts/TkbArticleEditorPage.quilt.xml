@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<quilt layout="two-column.side-main" nestable="false" disableTopCssClass="false">
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
   <add to="common-footer">
     <component id="quilt:Footer"/>
   </add>
-  <add to="side-content">
-    <component id="nodes.widget.avatar" useNodeIconAsFallback="true"/>
-  </add>
   <add to="main-content">
-    <component id="custom.autodesk.back-to-category-link"/>
-    <component id="memberships.widget.request-to-join"/>
-    <component id="autodesk-custom-modal-group-join-closed"/>
-    <component id="nodes.widget.node-info" useAvatar="false" type="bordered"/>
+    <component id="template"/>
+    <component id="autodesk-post-page-screencast-tabbed"/>
+    <component id="custom.autodesk.tkb-post-patch"/>
   </add>
   <add to="common-header">
     <component id="quilt:Header"/>
     <component id="common.widget.core-node-icon" wrapper="lia-page-header"/>
     <component id="common.widget.page-title" wrapper="lia-page-header"/>
   </add>
+  <add to="feedback" for="Header">
+    <component id="autosave-feedback"/>
+  </add>
   <remove from="sub-header-main" for="Header">
     <component id="common.widget.search-form"/>
+  </remove>
+  <remove from="header-right" for="Header">
+    <component id="common.widget.search-form-toggle"/>
   </remove>
 </quilt>

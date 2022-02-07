@@ -13,9 +13,9 @@
 <#assign postsItems = rest("2.0", featuredQuery).data.items![] />
 
 <#if postsItems?size gt 0>
-<div class="blog-articles-featured">
+<div class="custom-articles-featured">
 	<div class="wrapper">
-		<h2>${text.format('custom.blog-featured-title')}</h2>
+		<h2>${text.format('custom.featured-title')}</h2>
 		<div class="boxes">
 			<#list postsItems as postItem>
 				<#assign post = {

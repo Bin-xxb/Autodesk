@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="message-view.widget.subject" useBatchProcessingCheckbox="setting:layout.show_batch_checkboxes" hideSubjectIcons="true"/>
+    <component id="custom.autodesk.tkb-message-cover-image" wrapper="lia-tkb-message-image-body"/>
+    <component id="message-view.widget.teaser" wrapper="lia-tkb-message-image-body" displayBodyForEmptyTeaser="true" stripHtml="true"/>
+    <component id="helpfulness-display" wrapper="lia-tkb-article-footer"/>
+    <component id="ratings.widget.internal-rating-display" wrapper="lia-tkb-article-footer" ratingSystemRef="conv:tkb_ratings"/>
+    <component id="published-date" wrapper="lia-tkb-article-footer"/>
+  </add>
+</quilt>

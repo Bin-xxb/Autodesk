@@ -124,8 +124,6 @@
     </ul>
 </div>
 
-<@component id="custom.autodesk.label-filter.js"/>
-
 <#if tab_id == "all-posts" >
     <#-- Default tab, standard message list. -->
     <#assign messages=[]/>

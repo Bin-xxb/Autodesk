@@ -3,13 +3,13 @@
 <@liaAddScript>
 ;(function ($) {
   $('body').addClass('post-forum');
-  $('#lia-labels').attr('placeholder', '${text.format("form.MessageEditor.field.labels.placeholder")}' );
+  $('.lia-js-labels-editor-input').attr('placeholder', '${text.format("form.MessageEditor.field.labels.placeholder")?js_string}' );
   $('.lia-js-labels-editor').addClass('forum-label');
 
-  var $label = $('#list li a');
+  var $label = $('.predefined-labels li a');
 
   $(document).keyup(function(e) {
-    var val = $('#lia-labels').val().replace(/\s*/g,'');
+    var val = $('.lia-js-labels-editor-input').val().replace(/\s*/g,'');
     var arr = val.split(',');
 
     for (i = 0; i < arr.length; i++) {

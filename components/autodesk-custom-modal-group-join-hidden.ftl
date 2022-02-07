@@ -22,9 +22,8 @@
         });
 
         function joinAction() {
-            var $joinBtn = $privatePage.find('a[title="join this group hub"]');
+            var $joinBtn = $privatePage.find('.custom-private-message-group-hub-button');
             var $modal = $privatePage.find('.lia-component-common-widget-modal .lia-button');
-            var joinBtnHref = $joinBtn.attr('href');
             $joinBtn.on('click', function(e) {
                 e.preventDefault();
                 $modal.click();

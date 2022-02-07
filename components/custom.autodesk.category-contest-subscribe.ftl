@@ -14,13 +14,7 @@
   var $addSubscribe = $option.find('.lia-category-subscription-link');
   var addSubscribeUrl = $addSubscribe.attr('href');
 
- //  if (typeof addSubscribeUrl != 'undefined') {
-	// $sidebarAddSubscribe.attr('href', addSubscribeUrl);
-	// $sidebarAddSubscribe.find('span').append("${text.format('custom.subscribe-contest.title')}");
- //  }
-
   $('.add-subscribe').on('click', function() {
-  	console.log('1')
   	$addSubscribe.trigger('click');
   });
 

@@ -4,6 +4,7 @@
     <component id="quilt:Footer"/>
   </add>
   <add to="side-content">
+    <component id="custom.autodesk.grouphub-contents"/>
     <component id="common.widget.search-bar"/>
     <component id="custom.autodesk.blog-subscribe"/>
     <component id="blogs.widget.latest-comments"/>
@@ -34,7 +35,7 @@
     <component id="quilt:Header"/>
     <component id="autodesk-custom-banner"/>
     <component id="autodesk-custom-blog-filter"/>
-    <component id="autodesk-custom-blog-article-featured"/>
+    <component id="autodesk-custom-articles-featured"/>
     <component id="forums.widget.menu-bar" wrapper="lia-page-header" displayPager="false"/>
   </add>
 </quilt>

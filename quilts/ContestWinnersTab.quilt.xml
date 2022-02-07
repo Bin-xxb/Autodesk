@@ -6,5 +6,6 @@
     <component id="custom.autodesk.contest-content"/>
     <component id="custom.autodesk.contestWinner"/>
     <component id="comments"/>
+    <component id="autodesk-custom-share"/>
   </add>
 </quilt>

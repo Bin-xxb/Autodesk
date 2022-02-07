@@ -1,13 +1,14 @@
 <@liaAddScript>
 ; (function ($) {
     $(document).ajaxComplete(function() {
-        var $radioItem = $('.lia-component-search-widget-post-date-filter .search-toggle-element');
+        var $filter = $('.lia-component-search-widget-post-date-filter');
+        var $radioItem = $filter.find('.search-toggle-element');
         $('.filter-toggle[type="checkbox"]').each(function() {
             if ($(this).is(':checked')) {
                 $(this).parent('.search-toggle-element').addClass('checked');
             }
         })
-        $('.lia-component-search-widget-post-date-filter .filter-toggle').each(function() {
+        $filter.find('.filter-toggle').each(function() {
             var $this = $(this);
             if ($(this).is(':checked')) {
                 $(this).parent('.search-toggle-element').addClass('checked');
@@ -67,7 +68,7 @@
             $(this).find('.lia-search-filter-bread-crumb-link').html(output);
 
             var ariaLabel = $(this).find('.lia-fa-times-circle').attr('aria-label');
-            if (ariaLabel == 'Remove the Status: Past filter' || ariaLabel == 'Remove the Status: Upcoming filter' || ariaLabel == 'Remove the Status: In progress filter') {
+            if (ariaLabel == '${text.format("SearchFilterBreadCrumb.breadcrumb-remove.aria-label", text.format("occasions.filter_bread_crumb.past")?js_string)?js_string}' || ariaLabel == '${text.format("SearchFilterBreadCrumb.breadcrumb-remove.aria-label", text.format("occasions.filter_bread_crumb.upcoming")?js_string)?js_string}' || ariaLabel == '${text.format("SearchFilterBreadCrumb.breadcrumb-remove.aria-label", text.format("occasions.filter_bread_crumb.ongoing")?js_string)?js_string}') {
                 $(this).remove();
             }
         })
@@ -75,20 +76,20 @@
         var $eventList = $('.lia-occasions-list .lia-occasion-list-item');
         $eventList.each(function() {
             var $kudos = $(this).find('.lia-occasion-kudos-count');
-            var $kudosNum = $kudos.html().trim().replace(/\s/g,"");;
+            var $kudosNum = $kudos.html().trim().replace(/\s/g, "");
 
             if ($kudosNum == '1') {
                 if ($kudosNum.indexOf("Like") == -1 && $kudosNum.indexOf("Likes") == -1) {
-                    $kudos.append('${text.format("general.Kudo")}');
+                    $kudos.append("${text.format('general.Kudo')?js_string}");
                 }
             } else if ($kudosNum.indexOf("Like") == -1 && $kudosNum.indexOf("Likes") == -1) {
-                $kudos.append('${text.format("general.Kudos")}');
+                $kudos.append('${text.format("general.Kudos")?js_string}');
             }
         })
 
         var $labelsListTab = $('.filter-bread-crumb .lia-list-standard-inline');
         if ($labelsListTab.find('li').length > 0 && $labelsListTab.find('.clear-all').length <= 0)  {
-            var clearAll = '<li class="lia-search-filter-bread-crumb-item clear-all"><span class="lia-link-navigation lia-search-filter-bread-crumb-link lia-custom-event">Clear all</span><span class="lia-link-navigation lia-fa lia-fa-times-circle lia-filter-delete-icon lia-custom-event"></span></li>';
+            var clearAll = '<li class="lia-search-filter-bread-crumb-item clear-all"><span class="lia-link-navigation lia-search-filter-bread-crumb-link lia-custom-event">${text.format("custom.event-filter.clear.text")?js_string}</span><span class="lia-link-navigation lia-fa lia-fa-times-circle lia-filter-delete-icon lia-custom-event"></span></li>';
             $labelsListTab.prepend(clearAll);
         }
 
@@ -100,6 +101,9 @@
             } else if (url.indexOf("include_past=true") != -1) {
                 var defindUrl = window.location.href.split("?")[0] + '?include_past=true';
                 window.location.href = defindUrl;
+            } else {
+                var defindUrl = window.location.href.split("?")[0] + '?include_upcoming=true&include_ongoing=true';
+                window.location.href = defindUrl; 
             }
         })
     }

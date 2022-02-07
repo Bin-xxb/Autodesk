@@ -16,12 +16,6 @@
     <component id="article-navigator" wrapper="content-navigator-share"/>
     <component id="autodesk-custom-blog-article-recommended"/>
     <component id="custom.autodesk.blog-subscribe"/>
-    <component id="custom_content_7"/>
-    <component id="custom_content_11"/>
-    <component id="custom_content_12"/>
-    <component id="custom_content_13"/>
-    <component id="community.widget.admin-links"/>
-    <component id="custom.autodesk.switch-user"/>
   </add>
   <add to="common-header">
     <component id="quilt:Header"/>

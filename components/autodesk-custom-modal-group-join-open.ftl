@@ -1,7 +1,7 @@
 <#-- Build the options variable -->
 <#assign modalOptions = modalsupport.options
     .setButtonType("primary")
-    .setTitle("Requirements to join")
+    .setTitle("${text.format('custom-modal-group-join-header-title')}")
     .setSmall(false).setResizable(false)
  
 .build />

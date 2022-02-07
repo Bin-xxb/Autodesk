@@ -13,8 +13,7 @@
   </add>
   <add to="main">
     <component id="message-view.widget.subject" wrapper="lia-contest-content" disableSubjectLink="true" hideSubjectIcons="true"/>
-    <component id="message-view.widget.contest-media-description" wrapper="lia-contest-content"/>
-    <component id="message-view.widget.contest-media"/>
+    <component id="message-view.widget.body" wrapper="lia-contest-content"/>
   </add>
   <add to="header-right">
     <component id="post-date"/>

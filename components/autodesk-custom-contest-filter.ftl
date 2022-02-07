@@ -1,14 +1,14 @@
 <#assign labelMenuValue = webuisupport.path.rawParameters.name.get("label-name","${text.format('custom.contest-filter-default')}") />
 
 <div class="custom-filter">
-    <span>${text.format('custom-filter-by')}</span>
+    <span>${text.format('custom-filter-by')?js_string}</span>
     <div class="lia-menu-navigation-wrapper lia-menu-action" id="custom-filter-label" >
         <div class="lia-menu-navigation">
             <div class="dropdown-default-item">
-                <a title="${text.format('component.DropDownMenu.link.title')}" class="lia-js-menu-opener default-menu-option lia-js-click-menu lia-link-navigation" aria-expanded="false" role="button" aria-label="${text.format('DropDownMenu.default-link.aria-label')}">${labelMenuValue}</a>
+                <a title="${text.format('component.DropDownMenu.link.title')?js_string}" class="lia-js-menu-opener default-menu-option lia-js-click-menu lia-link-navigation" aria-expanded="false" role="button" aria-label="${text.format('DropDownMenu.default-link.aria-label')?js_string}">${labelMenuValue}</a>
                 <div class="dropdown-positioning">
                     <div class="dropdown-positioning-static">
-                        <ul aria-label="${text.format('dropdownMenuItems.list.aria-label')}" role="list" class="lia-menu-dropdown-items">
+                        <ul aria-label="${text.format('dropdownMenuItems.list.aria-label')?js_string}" role="list" class="lia-menu-dropdown-items">
                             <a></a>
                             <@component id="contests.widget.labels" />
                         </ul>
