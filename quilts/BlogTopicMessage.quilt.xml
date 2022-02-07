@@ -11,7 +11,7 @@
   </add>
   <add to="main">
     <component id="post-date"/>
-    <component id="custom.autodesk.blog-cover-image"/>
+    <component id="custom.autodesk.article-cover-image"/>
     <component id="message-view.widget.body"/>
     <component id="labels"/>
     <component id="source-device"/>

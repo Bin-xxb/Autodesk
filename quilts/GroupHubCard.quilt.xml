@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="one-column" nestable="false" disableTopCssClass="false">
+  <add to="main-content">
+    <component id="memberships.widget.type"/>
+    <component id="nodes.widget.avatar-limuirs" useLink="false"/>
+    <component id="nodes.widget.title" useLink="false" useMembershipTypeIcon="false"/>
+    <component id="nodes.widget.description"/>
+    <component id="memberships.widget.count"/>
+    <component id="nodes.widget.topic-count"/>
+  </add>
+</quilt>

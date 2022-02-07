@@ -12,9 +12,11 @@
     <component id="community.widget.page-options"/>
     <component id="article"/>
     <component id="comments"/>
+    <component id="custom.autodesk.share-env"/>
   </add>
   <add to="common-header">
     <component id="quilt:Header"/>
     <component id="autodesk-custom-banner"/>
+    <component id="common.widget.page-title" wrapper="lia-page-header"/>
   </add>
 </quilt>

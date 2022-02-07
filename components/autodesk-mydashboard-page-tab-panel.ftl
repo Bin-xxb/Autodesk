@@ -24,19 +24,8 @@
                                                                                 "pageLabel": "all-posts-page",
                                                                                 "url": "/profile/contributions#/dashboard"
                                                                 },
-                                                                {
-                                                                                "id"           : "my-private-screencast",
-                                                                                "title"    : "${text.format('autodesk-mydashboard-page-tab-panel-label.myprivatescreencast')}",
-                                                                                "pageLabel": "faq-posts-page",
-                                                                                "url": "/profile/contributions#/dashboard/private"
-                                                                },
+                                                               
 
-                                                                {
-                                                                                "id"           : "screencast-shared-withme",
-                                                                                "title"    : "${text.format('autodesk-mydashboard-page-tab-panel-label.screencastsharedwithme')}",
-                                                                                "pageLabel": "solved-posts-page",
-                                                                                "url": "/profile/contributions#/dashboard/shared"
-                                                                },
                                                                 {
                                                                                 "id"           : "forum-dashboard",
                                                                                 "title"    : "${text.format('autodesk-mydashboard-page-tab-panel-label-forums-dashboard')}",

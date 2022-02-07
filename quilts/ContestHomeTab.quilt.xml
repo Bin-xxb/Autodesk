@@ -6,9 +6,6 @@
   <add to="common-header">
     <component id="custom.autodesk.contest-entries-count"/>
     <component id="community.widget.page-options"/>
-    <component id="contest-example"/>
-    <component id="custom.autodesk.contest-start-end-date"/>
-    <component id="custom.autodesk.contest-description"/>
-    <component id="contest-rules"/>
+    <component id="custom.autodesk.contest-content"/>
   </add>
 </quilt>

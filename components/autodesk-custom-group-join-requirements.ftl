@@ -1,4 +1,5 @@
-${coreNode.settings.name.get("customcontent.16_text")}
+<#assign content = coreNode.settings.name.get("customcontent.16_text", "") />
+${content}
 
 <@liaAddScript>
 (function ($) {

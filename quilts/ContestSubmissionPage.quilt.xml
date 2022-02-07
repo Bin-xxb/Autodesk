@@ -10,6 +10,7 @@
     <component id="common.widget.welcome"/>
     <component id="custom.autodesk.page-welcome-js"/>
     <component id="custom.autodesk.back-to-category-link"/>
+    <component id="community.widget.page-options"/>
     <component id="autodesk-custom-node"/>
     <component id="custom.autodesk.contest-detail-page-like-comment-count"/>
     <component id="submission-navigator"/>
@@ -17,7 +18,7 @@
     <component id="custom.autodesk.contest-comment-text"/>
     <component id="comments"/>
     <component id="comment-editor"/>
-    <component id="autodesk-custom-share"/>
+    <component id="custom.autodesk.share-page"/>
     <component id="comment-submission-navigator"/>
   </add>
   <add to="common-header">

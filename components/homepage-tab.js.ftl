@@ -1,3 +1,6 @@
+
+    <#assign blogURL = "/t5/autodesk-community-voices/bg-p/voices-blog" />
+
 <@liaAddScript>
 ; (function ($) {
     var $communityPageTab = $('.CommunityPage #tabgroup');
@@ -6,10 +9,10 @@
     var $tabContent = $communityPageTab.find('.tab-content');
 
     var $groupsContent = $('.lia-group-hubs-list');
-    var html1 = '<div class="tab-right"><span class="tab-blogs"><a href="/t5/community-blog/bg-p/community-blog"><i class="icon-blog"></i>${text.format("autodesk-area-header-nav-label.blog")}</a></span><span class="tab-groups"><img class="icon-group" src="${asset.get("/html/assets/icon-group.svg")}"><img class="icon-group-white" src="${asset.get("/html/assets/icon-group-white.svg")}">${text.format("general.Groups")}</span><span class="tab-events"><a href="/t5/community-events/eb-p/communityevents"><i class="lia-fa lia-fa-calendar"></i>${text.format("autodesk-area-header-nav-label.events")}</a></span></div>';
+    var html1 = '<div class="tab-right"><span class="tab-blogs"><a href="${blogURL?js_string}"><i class="icon-blog"></i>${text.format("autodesk-area-header-nav-label.blog")}</a></span><span class="tab-groups"><img class="icon-group" src="${asset.get("/html/assets/icon-group.svg")}"><img class="icon-group-white" src="${asset.get("/html/assets/icon-group-white.svg")}">${text.format("general.Groups")}</span><span class="tab-events"><a href="/t5/community-events/eb-p/communityevents"><i class="lia-fa lia-fa-calendar"></i>${text.format("autodesk-area-header-nav-label.events")}</a></span></div>';
     // $tabUl.insertAdjacentHTML("afterend", html)
     $tabUl.after(html1);
-    // $tabUl.after(`<div class="tab-right"><span class="tab-blogs"><a href="/t5/community-blog/bg-p/community-blog"><i class="icon-blog"></i>${text.format("autodesk-area-header-nav-label.blog")}</a></span><span class="tab-groups"><img class="icon-group" src="${asset.get("/html/assets/icon-group.svg")}"><img class="icon-group-white" src="${asset.get("/html/assets/icon-group-white.svg")}">${text.format("general.Groups")}</span><span class="tab-events"><a href="/t5/community-events/eb-p/communityevents"><i class="lia-fa lia-fa-calendar"></i>${text.format("autodesk-area-header-nav-label.events")}</a></span></div>`);
+    // $tabUl.after(`<div class="tab-right"><span class="tab-blogs"><a href="${blogURL?js_string}"><i class="icon-blog"></i>${text.format("autodesk-area-header-nav-label.blog")}</a></span><span class="tab-groups"><img class="icon-group" src="${asset.get("/html/assets/icon-group.svg")}"><img class="icon-group-white" src="${asset.get("/html/assets/icon-group-white.svg")}">${text.format("general.Groups")}</span><span class="tab-events"><a href="/t5/community-events/eb-p/communityevents"><i class="lia-fa lia-fa-calendar"></i>${text.format("autodesk-area-header-nav-label.events")}</a></span></div>`);
     $('.tab-groups').on('click', function () {
         $groupsContent.css('display', 'block');
         $tabUl.css('display', 'none');

@@ -1,4 +1,13 @@
-<#assign
+<#if coreNode.ancestors?size gt 1>
+    <#assign interaction_style=page.interactionStyle/>
+<#else>
+    <#assign interaction_style=http.request.parameters.name.get("interaction_style","") />
+</#if>
+
+
+<#if interaction_style != "blog" && interaction_style != "qna" && interaction_style != "contest">
+
+    <#assign
 screencastTabs = [
 		{
 		"id"     : "pasteurl",
@@ -564,6 +573,4 @@ $('#submitContext_1').on('click',function(){
 })(LITHIUM.jQuery);
 </@liaAddScript>
 
-
-
-
+</#if> 

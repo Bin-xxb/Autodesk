@@ -5,6 +5,7 @@
   </add>
   <add to="side-content">
     <component id="primary-post-button"/>
+    <component id="custom.autodesk.grouphub-contents"/>
     <component id="custom.autodesk.events-board-page-community-host"/>
   </add>
   <add to="main-content">
